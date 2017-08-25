@@ -103,6 +103,8 @@
     
     // Do any additional setup after loading the view, typically from a nib.
     
+    NSLog("xxxx");
+    
     //1、初始化
     
     self.clinetSocket= [[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
